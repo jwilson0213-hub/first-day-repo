@@ -4,24 +4,41 @@
     text-align: center;
 }
 
+h1 {
+    padding-top: 30px;
+}
+
 header { 
     background-color: brown;
     padding: 40px;
-    border-bottom: 3px solid tan;
+    border-bottom: 5px solid tan;
     width: 100%;
     text-align: right;
 }
+
 li {
     display: inline;
     color:white;
+
     
 }
+
 a {
     text-decoration: none;
     font-size: 20px;
+    padding: 5px;
 }
+
 img {
     display: block;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+p {
+    padding-bottom: 30px;
+}
+#contact {
+ padding:20px;   
 }
 
 label {
@@ -32,13 +49,27 @@ form {
     background-color: tan;
     border: 1px solid brown;
     display: block;
-    padding: 50px;
-    width: 100%;
+    padding: 20px;
+    
+}
+
+.fieldArea {
+    border: 2px solid brown;
+    border-radius: 10px;;
+    padding-top: 20px;
+    padding-bottom:10px;
+    width: 450px;
+    height: 80px;
 }
 
 footer {
     background-color: brown;
+    color: white;
     padding:10px;
-    width: 100%;
     border-bottom: 5px solid tan;
+}
+button {
+    padding: 5px 10px;
+    background-color: green;
+    color:white
 }
