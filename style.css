@@ -2,6 +2,8 @@
 * {
     margin: 0 auto;
     text-align: center;
+
+    
 }
 
 h1 {
@@ -12,13 +14,12 @@ header {
     background-color: brown;
     padding: 40px;
     border-bottom: 5px solid tan;
-    width: 100%;
     text-align: right;
 }
 
 li {
     display: inline;
-    color:white;
+    color: white;
 
     
 }
@@ -31,23 +32,26 @@ a {
 
 img {
     display: block;
-    padding-top:30px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
+
 p {
     padding-bottom: 30px;
 }
+
 #contact {
- padding:20px;   
+ padding: 20px;   
 }
 
 label {
     display: block;
 
 }
+
 form {
     background-color: tan;
-    border: 1px solid brown;
+    border: 2px solid brown;
     display: block;
     padding: 20px;
     
@@ -65,9 +69,12 @@ form {
 footer {
     background-color: brown;
     color: white;
-    padding:10px;
+    padding: 10px;
     border-bottom: 5px solid tan;
+
+    
 }
+
 button {
     padding: 5px 10px;
     background-color: green;
